@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
@@ -6,6 +12,7 @@
     background-color: #0d1b2a;
     color: #fff;
     min-height: 10vh;
+    margin-top: auto;
 }
 
 .logo p {
